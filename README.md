@@ -38,6 +38,11 @@ python de_bruijn_assembly.py assemble -i reads.fasta -k 43 -p orig_genome.fasta 
 
 Included is the genome of pUC19, a well-known vector. Also the example from the paper referenced below.
 
+```
+python de_bruijn_assembly.py create -i pUC19.fasta -n 6 -l 150 -o pUC19_6_150.fasta
+python de_bruijn_assembly.py assemble -i pUC19_6_150.fasta -k 43 -p pUC19.fasta -o results.txt
+```
+
 ## License
 
 Public Domain
