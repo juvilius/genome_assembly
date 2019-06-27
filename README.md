@@ -14,7 +14,7 @@ You need numpy and a preferably circular DNA sequence.
 
 ## Usage
 
-###Create reads
+### Create reads
 
 Create random reads with a coverage **n** and variable length of around **l**:
 
@@ -34,7 +34,7 @@ python de_bruijn_assembly.py assemble -i reads.fasta -k 43 -p orig_genome.fasta 
 
 *k* is the length of the kmers. *orig_genome.fasta* is the genome sequence to proof the results (which are stored in *result_file*).
 
-##Examples
+## Examples
 
 Included is the genome of pUC19, a well-known vector. Also the example from the paper referenced below.
 
